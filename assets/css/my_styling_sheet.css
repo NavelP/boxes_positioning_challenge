@@ -1,0 +1,147 @@
+/*styling the body*/
+
+/* universal selector to set all texts to this font family, font-size and weight*/
+
+*{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#000000, #0364ad);
+    padding: 0px;
+}
+
+/* styling for the header*/
+header{
+    min-width: 100%;
+    position:fixed; /* fixing the header containing our links*/
+    top:0; /* to the top whenever the page is scrolled */
+}
+
+/* styling for the links list*/
+header ul{
+    list-style-type: none;
+    float: right;
+    padding-right: 100px;
+}
+
+header ul li{
+    display: inline;
+    padding: 25px;
+}
+
+/* styling for the anchor elements*/
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#footer-spacing{
+    height: 60vh;
+    width: 100vw;
+}
+
+/*styling for the positioned boxes*/
+.positioned-boxes{
+    background-color: #dfe5ec;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 60px;
+    padding-top: 1%;
+}
+
+.positioned-boxes ul{
+    list-style-type: none;
+    margin-left: 25vw;
+    margin-top: 10px;
+}
+
+.positioned-boxes ul li{
+    display: inline-block;
+}
+
+.positioned-boxes ul li div{
+    width: 250px;
+    height: 250px;
+    border-radius: 1px;
+}
+
+.positioned-boxes ul li div p{
+    color: brown;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#square-1{
+    background-color: #0364ad;
+    position: relative;
+}
+
+#square-2{
+    background-color: aqua;
+    margin-left: -1%;
+    position: relative;
+    top: 174px;
+    left: 81px;
+    z-index: 1;
+}
+
+#square-2 p{
+    top: 125px;
+}
+
+#square-1 p{
+    top: 30px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 1px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* styling the footer */
+footer{
+    margin-top: 2vh;
+    padding: 10px;
+    background-color: #000000;
+    min-width: 100vw;
+    margin-left: -20px;
+    padding-left: 50px;
+}
+
+#footer-text{
+    color: #ffffff;
+}
+
+#footer-icons {
+    list-style-type: none;
+}
+
+#footer-icons li{
+    display: inline;
+    padding: 10px;
+}
+
+#footer-icons li a{
+    text-decoration: none;
+}
+
+#footer-icons li a img{
+    width: 20px;
+    height: 20px;
+}
